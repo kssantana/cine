@@ -26,15 +26,15 @@ include_once 'etc/query.php';
 #DB HOST PRODUCAO (ON PREMISSE):
 #$host = "192.168.3.14"; //Servidor do mysql
 #DB HOST PRODUCAO (CLOUD):
-$host = "192.168.3.14"; //Servidor do mysql1
+$host = "db01_mysql_1"; //Servidor do mysql1
 
 
 $user = "cineadm"; //Usuario do banco de dados DW
-$senha = "D3us&fi31"; //senha do banco de dados
+$senha = "senha"; //senha do banco de dados
 $DefaultPassword = "Senha01"; //Senha default automaticamente setada quando se redefine a senha de um usuario do Sistema.
-$Version = "2.0.24k"; //Versao exibida no index.do sistema
+$Version = "2.0.24k-C"; //Versao exibida no index.do sistema
 $SessionTimeOut = 200; // Tempo para expiração de uma sessão de usuario (1800=30Min. / 900=15Min. / 450=10Min. / 225=5Min. )
-$PHPVersion = "5"; // Informa a versão do PHP instalado no Servidor, evitando erros de sintaxe MySQL.
+$PHPVersion = "7"; // Informa a versão do PHP instalado no Servidor, evitando erros de sintaxe MySQL.
 $SQLServerParameterFetch = ""; //Definição inicial de variavel Parametro MySQL *NAO PRECISA ALTERAR*
 $SQLServerParameterRows = ""; //Definição inicial de variavel Parametro MySQL *NAO PRECISA ALTERAR*
 
