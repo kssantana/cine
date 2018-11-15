@@ -26,7 +26,7 @@ include_once 'etc/query.php';
 #DB HOST PRODUCAO (ON PREMISSE):
 #$host = "192.168.3.14"; //Servidor do mysql
 #DB HOST PRODUCAO (CLOUD):
-$host = "db01_mysql_1"; //Servidor do mysql
+$host = "db01_mysql_1"; //Servidor do mysql1
 
 
 $user = "cineadm"; //Usuario do banco de dados DW
