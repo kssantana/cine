@@ -1,0 +1,11 @@
+.backgroundmenu{
+	background-color:rgba(108, 166, 205, 0.7);
+	border-color:rgba(108, 166, 205, 0.7);
+}
+.bcli {
+	background-color:rgba(108, 166, 205, 0.7);
+}
+.bodynex, body {
+	background-color: #f5f5f5;
+	margin-top:10px;
+}

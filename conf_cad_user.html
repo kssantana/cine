@@ -1,0 +1,78 @@
+<!--
+///////////////////////////////////////////////////////////////////////
+//===================================================================//
+//+-----------------------------------------------------------------+//
+//|					PINN NEX Systems	        					|//
+//|  Inteligencia de coleta de processamento e coleta de dados 	    |//
+//| De gerenciamento de rede de computadores e sistemas			    |//
+//+-----------------------------------------------------------------+// 	
+//| DATA: 22/02/2016 - KLEBER DA SILVA SANTANA / EDNALDO ROSSI		|//
+//| VERSÃO: 1.0														|//
+//| ULTIMA MODIFICAÇÃO: 22/02/2016									|//	
+//+-----------------------------------------------------------------+//
+//===================================================================//	
+///////////////////////////////////////////////////////////////////////
+-->
+<form class="form-horizontal" role="form" method="post" action="cad_user.php">
+	<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">Nome do Usuario</label>
+		<div class="col-xs-10 .col-md-6">
+			<input type="text" class="form-control" id="name" name="name" placeholder="User Name" value="" required>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">Senha</label>
+		<div class="col-xs-10 .col-md-6">
+			<input type="password" class="form-control" id="senha" name="senha" placeholder="Senha do Usuario" value="" required>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">Confirmar Senha</label>
+		<div class="col-xs-10 .col-md-6">
+			<input type="password" class="form-control" id="confsenha" name="confsenha" placeholder="Confirmar a Senha" value="" required>
+		</div>
+	</div>	
+	<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">Nivel de Acesso</label>
+		<div class="col-xs-10 .col-md-6">
+			<select name="access" class="form-control" id="access" placeholder="Access Type">
+			<option value="F">Full Access</option>
+			<option value="R">Read Access</option>
+			<option value="D">Disabled</option>
+			</select>
+		</div>
+	</div>	
+	<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">E-Mail</label>
+		<div class="col-xs-10 .col-md-6">
+			<input type="text" class="form-control" id="email" name="email" placeholder="E-Mail do Usuario" value="" required>
+		</div>
+	</div>	
+	<br></br>
+	<div class="form-group">
+		<p><b><center>Parametros de configuração de usuarios:</center></b></p>
+		<hr>
+		<label for="name" class="col-sm-2 control-label">Exibe Icones? (Y/N):</label>
+		<div class="col-xs-10 .col-md-6">
+			<select name="image" class="form-control" id="image" placeholder="Image">
+			<option value="Y">Yes</option>
+			<option value="N">No</option>
+			</select>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">Exibe Desabilitados? (Y/N):</label>
+		<div class="col-xs-10 .col-md-6">
+			<select name="disabled" class="form-control" id="disabled" placeholder="disabled">
+			<option value="Y">Yes</option>
+			<option value="N">No</option>
+			</select>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-10 col-sm-offset-2">
+			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+		</div>
+	</div>
+</form>
+</div> <!-- fechamento da div container-->
