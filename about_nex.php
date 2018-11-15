@@ -34,7 +34,7 @@ echo '
 <br><label>de forma simples e agil seus filmes, e possa ter acesso a essas informações quando decidir assisti-los</br></label>
 <br><label>o Sistema CINE foi desenvolvido pela NEX SYSTEM uma consultoria de monitoração e gerencia de redes.</br></label>
 <br><label>Para maiores informações da NEX SYSTEMS acesso nosso site em http://www.nexsystems.com.br.</br></label>
-<br><label>Estamos felizes por poder atender você, queremos auxilia-lo em suas necessidades.</br></label>
+<br><label>Estamos felizes por poder atender você, queremos auxilia-lo em suas necessidades - Usando GIT.</br></label>
 <br></br>
 <br></br>
 <br></br>
